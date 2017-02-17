@@ -1,4 +1,4 @@
-class Sdl2Image < Formula
+class Sdl2ImageNoshare < Formula
   desc "Library for loading images as SDL surfaces and textures"
   homepage "https://www.libsdl.org/projects/SDL_image/"
   url "https://www.libsdl.org/projects/SDL_image/release/SDL2_image-2.0.1.tar.gz"
