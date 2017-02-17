@@ -16,10 +16,10 @@ class Sdl2Image < Formula
 
   depends_on "pkg-config" => :build
   depends_on "sdl2"
-  depends_on "jpeg" => :recommended
-  depends_on "libpng" => :recommended
-  depends_on "libtiff" => :recommended
-  depends_on "webp" => :recommended
+  depends_on "jpeg"
+  depends_on "libpng"
+  depends_on "libtiff"
+  depends_on "webp"
 
   def install
     ENV.universal_binary if build.universal?
