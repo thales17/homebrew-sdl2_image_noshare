@@ -27,7 +27,7 @@ class Sdl2ImageNoshare < Formula
     inreplace "SDL2_image.pc.in", "@prefix@", HOMEBREW_PREFIX
 
     system "./configure", "--disable-dependency-tracking",
-                          "--prefix=#{prefix}", "--enable-imageio=no"
+                          "--prefix=#{prefix}", "--enable-imageio=yes"
     system "make", "install"
   end
 end
