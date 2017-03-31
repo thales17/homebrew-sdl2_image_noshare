@@ -1,4 +1,4 @@
-# homebrew-r
+# homebrew-sdl2_image_noshare
 Homebrew formula for sdl2_image_noshare : github.com/thales17/sdl2_image_noshare
 
 # Install
